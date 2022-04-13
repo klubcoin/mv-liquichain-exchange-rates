@@ -1,0 +1,9 @@
+{
+  "code" : "mv-liquichain-exchange-rates",
+  "description" : "Exhange rates services between cois, tokens, fiats,...",
+  "license" : "GPL",
+  "currentVersion" : "0.1",
+  "isInDraft" : true,
+  "moduleDependencies" : [ ],
+  "moduleFiles" : [ ]
+}
