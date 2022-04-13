@@ -45,10 +45,10 @@ public class ExchangeRateProvider extends Script {
 	@Override
 	public void execute(Map<String, Object> parameters) throws BusinessException {
 		result="{"
-          +"from=\""+fromDate+"\",\n"
-          +"to=\""+toDate+"\",\n"
-          +"data=[\n"
-          +"{\"timestamp\":System.currentTimeMillis(),\"value\":"+ConversionRateScript.LCN_TO_EUR+"}\n"
+          +"\"from\"=\""+fromDate+"\",\n"
+          +"\"to\"=\""+toDate+"\",\n"
+          +"\"data\"=[\n"
+          +"{\"timestamp\":"+System.currentTimeMillis()+",\"value\":"+ConversionRateScript.LCN_TO_EUR+"}\n"
           +"]\n"
           +"}";
 	}
