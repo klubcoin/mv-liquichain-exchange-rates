@@ -12,8 +12,8 @@ public class ExchangeRateProvider extends Script {
 		
     private String fromCurrency;
     private String toCurrency;
-    private Instant fromDate;
-    private Instant toDate;
+    private String fromDate;
+    private String toDate;
     private long maxValues;
     private String result;
 
@@ -25,11 +25,11 @@ public class ExchangeRateProvider extends Script {
         this.toCurrency=toCurrency;
     }
   
-    public void setFromDate(Instant fromDate) {
+    public void setFromDate(String fromDate) {
         this.fromDate=fromDate;
     }
   
-    public void setToDate(Instant toDate) {
+    public void setToDate(String toDate) {
         this.toDate=toDate;
     }
   
