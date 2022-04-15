@@ -48,6 +48,11 @@ public class ExchangeRateProvider extends Script {
           +"\"from\":\""+fromDate+"\",\n"
           +"\"to\":\""+toDate+"\",\n"
           +"\"data\":[\n"
+          +"{\"timestamp\":1649541600000,\"value\":1500},\n"
+          +"{\"timestamp\":1649628000000,\"value\":1300},\n"
+          +"{\"timestamp\":1649728000000,\"value\":900},\n"
+          +"{\"timestamp\":1649828000000,\"value\":1100},\n"
+          +"{\"timestamp\":1649928000000,\"value\":1600},\n"
           +"{\"timestamp\":"+System.currentTimeMillis()+",\"value\":"+ConversionRateScript.LCN_TO_EUR+"}\n"
           +"]\n"
           +"}";
