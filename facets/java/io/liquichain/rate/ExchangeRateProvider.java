@@ -52,7 +52,7 @@ public class ExchangeRateProvider extends Script {
           +"{\"timestamp\":1649628000000,\"value\":1300},\n"
           +"{\"timestamp\":1649728000000,\"value\":900},\n"
           +"{\"timestamp\":1649828000000,\"value\":1100},\n"
-          +"{\"timestamp\":1649928000000,\"value\":1600},\n"
+          +"{\"timestamp\":"+(System.currentTimeMillis() - 3600000)+",\"value\":1600},\n"
           +"{\"timestamp\":"+System.currentTimeMillis()+",\"value\":"+ConversionRateScript.LCN_TO_EUR+"}\n"
           +"]\n"
           +"}";
